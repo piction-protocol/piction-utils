@@ -35,7 +35,6 @@ class NumberExtensionTest {
     @Test
     fun testBigDecimalToPercent1() {
         val number = BigDecimal("0.01").toPercent
-        println(BigDecimal("0.1").stripTrailingZeros() == BigDecimal("0.10").stripTrailingZeros())
         assertEquals(number, BigDecimal("1"))
     }
 

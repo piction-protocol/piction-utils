@@ -4,11 +4,12 @@ plugins {
     java
     `maven-publish`
     id("org.jmailen.kotlinter") version "2.2.0"
+    id("com.adarshr.test-logger") version "2.0.0"
     kotlin("jvm") version "1.3.70-eap-42"
 }
 
 group = "network.piction"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     maven { setUrl("https://dl.bintray.com/kotlin/kotlin-eap") }
