@@ -14,5 +14,7 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.8
+      - name: Build
+        run: ./gradlew build -P RESOURCES_USERNAME=${{ secrets.RESOURCES_USERNAME }} -P RESOURCES_PASSWORD=${{ secrets.RESOURCES_PASSWORD }}
       - name: Deploy
         run: ./gradlew publish -P RESOURCES_USERNAME=${{ secrets.RESOURCES_USERNAME }} -P RESOURCES_PASSWORD=${{ secrets.RESOURCES_PASSWORD }}

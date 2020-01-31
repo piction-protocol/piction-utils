@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "network.piction"
-version = "1.0.1"
+version = "1.0.2"
 
 repositories {
     maven { setUrl("https://dl.bintray.com/kotlin/kotlin-eap") }
