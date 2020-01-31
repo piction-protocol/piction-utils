@@ -1,0 +1,5 @@
+[{*.kts, *.kt}]
+indent_style = space
+indent_size = 4
+disabled_rules = no-wildcard-imports, import-ordering
+max_line_length = 200
